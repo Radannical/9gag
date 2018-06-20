@@ -1,0 +1,21 @@
+$(document).ready(function(){
+	$("#SignUp").hide();
+	$("#Login").show();
+	$("#LoginButton").click(function(){
+		$("#SignUp").hide();
+		$("#Login").show();
+	});
+	$("#SignUpButton").click(function(){
+		$("#Login").hide();
+		$("#SignUp").show();
+	});
+});
+
+$(document).ready(function(){
+	$("#avatar").click(function(){
+	    $("#info").slideToggle("slow");
+    });
+});
+$(document).ready(function(){
+    $("#info").hide();
+});

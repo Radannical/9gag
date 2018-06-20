@@ -1,0 +1,505 @@
+div.e0
+{
+	width: 1010px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: rgba(153, 170, 204, 0.35);
+}
+div.logo{
+	width: 30%;
+	height: 125px;
+}
+body
+{
+	background-image: none !important;
+}
+div.e0-2
+{
+	width: 1010px;
+	height: 950px;
+	margin: 0 auto;
+}
+
+div.header{
+	height:15%;
+}
+div.e1
+{
+	position: 			relative;
+	margin-bottom: 		5px;
+	left: 				10px;
+	width:				15%;
+	height: 			13%;
+	float: 				left;
+	background-image: 	;
+}
+
+.title
+{
+	background-image: none !important;
+	width:80%;
+	float: left;
+}
+
+div.tab
+{
+	position: relative;
+	float:left;
+	margin-left: 10px;
+	width: 98%;
+	height: 45px;
+	background-color: #0e9cd1;
+	border-radius: 10px;
+	background-size: 150px 150px;
+}
+
+div.sidetab
+{
+	position: relative;
+	float: right;
+	margin-right: 25px;
+	width: 67%;
+	height: 45px;
+	text-align-last: right;
+	border-radius: 10px;
+}
+
+div.e2
+{
+	float: left;
+	margin-left: 18px;
+	margin-top: 15px;
+	width: 977px;
+	height: 735px;
+
+
+	background-color: white;
+	
+}
+div.e2-2
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 990px;
+	height: 735px;
+	border: ridge brown;
+	background-color: white;
+	
+}
+div.e2-5
+{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 990px;
+	height: 735px;
+	border: ridge brown;
+	background-color: white;
+	
+}
+#left-column1{
+	float:left;
+	width:60%;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: 180px 70%;
+	grid-template-rows: 45px 150px 150px 150px;
+	position: relative;
+	left:5px;
+}
+#left-column1-1{
+	float:left;
+	width:60%;
+	position: relative;
+	left: 5px;
+}
+#left-column2{
+	float:left;
+	width:60%;
+	position: relative;
+	left: 5px;
+}
+#left-column3{
+	float:left;
+	width:60%;
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: 30% 70%;
+	grid-template-rows: 45px 150px 150px 150px;
+	position: relative;
+	left:5px;
+}
+#left-column3-1{
+	float:left;
+	width:60%;
+	display: grid;
+	grid-gap: 15px;
+	grid-template-columns: 30% 70%;
+	grid-template-rows: 45px 150px 150px 150px;
+	position: relative;
+	left:5px;
+}
+#left-column4{
+	float:left;
+	width:60%;
+	position: relative;
+	left:5px;
+}
+#left-column5{
+	float:left;
+	width:40%;
+	position: relative;
+	left:5px;
+}
+#left-column6{
+	float:left;
+	width:60%;
+	position: relative;
+	left:5px;
+}
+
+#right-column{
+	float:left;
+	width:40%;
+	display: grid;
+	grid-template-rows: 215px 400px;
+	grid-gap: 5px;
+}
+#right-column2{
+	float:left;
+	width:60%;
+	display: grid;
+	grid-template-rows: 215px 400px;
+	grid-gap: 5px;
+}
+#left-column-postovi {
+	float: left;
+	width: 60%;
+	position: relative;
+	left: 5px;
+}
+#right-column-postovi{
+	float:left;
+	width:40%;
+	position: relative;
+	left:5px;
+}
+button.detail
+{
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	background-color: #0e9cd1;
+}
+button.detail1
+{
+	font-size: 16px;
+	border-radius: 8px;
+	transition-duration: 0.4s;
+	background-color: #0e9cd1;
+}
+
+div.gallery
+{
+	float: left;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 125px);
+}
+.gallery > div > img {
+    width: 98%;
+    height: 98%;
+    object-fit: cover;
+}
+
+.fskontakt
+{
+    border: solid 1px #DDD !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+	height: 200px;
+	width: 90%;
+	margin-top: 10px;
+}
+.fsmap
+{
+	width:90%;
+	height:70%;
+    border: solid 1px #DDD !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+	float:left;
+}
+
+.fsbigmap
+{
+    border: solid 1px #DDD !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+	width:90%;
+	height:100%;
+}
+
+.forma
+{
+	border: solid 1px #DDD !important;
+    padding: 0 10px 10px 10px;
+    border-bottom: none;
+	top: 5px;
+	left: 10px;
+	height: 350px;
+	width: 350px;
+	position: relative;
+}
+
+.leg
+{
+    width: auto !important;
+    border: none;
+    font-size: 18px;
+}
+
+.tab button
+{
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 8px 5px;
+	transition: 0.3s;
+	width: 80px;
+	height: 45px;
+	
+}
+
+
+.tab button:hover 
+{
+	background-color: #ddd;
+}
+
+
+.tab button.active 
+{
+	background-color: #ccc;
+}
+.slika1
+{
+	float: left;
+	position: absolute;
+	left: 10px;
+	
+}
+.slika2
+{
+	float: left;
+	position: absolute;
+	left: 10px;
+	top: 250px;
+}
+.textdiv2
+{
+	position: absolute;
+	top: 250px;
+	left: 170px;
+}
+.slika3
+{
+	float: left;
+	position: absolute;
+	left: 10px;
+	top: 425px;
+}
+.textdiv3
+{
+	position: absolute;
+	top: 425px;
+	left: 170px;
+}
+.burek > div > img
+{
+
+    border:1px solid #f69d3a;
+	width:30%;
+	
+}
+.burektxt
+{	
+	width:65%;
+}
+.kifle div > img
+{
+	
+    border:1px solid #f69d3a;
+	width:30%;	
+}
+.kifletxt
+{
+	width:65%;
+}
+.cheesecake div > img
+{
+	border:1px solid #f69d3a;
+	width:30%;	
+}
+.cheesecaketxt
+{
+	width:65%;
+}
+.tim1
+{
+	float: left;
+	position: absolute;
+	left: 10px;
+	
+}
+.tim1txt
+{
+	position: absolute;
+	top: 168px;
+	left: 170px;
+}
+.bio1
+{
+	position: absolute;
+	left: 10px;
+	top: 200px;
+}
+.djevrek
+{
+	padding:1px;
+	float: left;
+	
+}
+.kroasan
+{
+	padding:1px;
+	float: left;
+	
+}
+.mafin
+{
+	
+    padding:1px;
+	float: left;
+	
+}
+.korpa
+{
+	position: absolute;
+	top: 85px;
+	left: 195px;
+}
+input[type=number]{
+    width: 80px;
+	height: 35px;
+}
+#dodaj
+{
+	position: relative;
+	font-size: 0.8em;
+	height: 35px;
+	width: 120px;
+	background-color: #f69d3a;
+}
+.opis
+{
+	position: relative;
+	
+}
+div.glavna
+{
+	position: relative;
+	left: 90px;
+	float:left;
+	padding:1px;
+	width: 400px;
+	height: 250px;
+}
+
+.tabla
+{
+	position: absolute;
+	padding:1px;
+    border:1px solid #f69d3a;
+    background-color:#f69d3a;
+	left: 100px;
+	top: 450px;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+} 
